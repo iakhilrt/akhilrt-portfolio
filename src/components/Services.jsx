@@ -6,23 +6,23 @@ const Services = () => {
     const services = [
         {
             icon: <Monitor size={32} />,
-            title: 'Full Stack Web Development',
-            description: 'End-to-end web application development bridging responsive frontends with robust, scalable backends.'
+            title: 'Scalable Web Applications',
+            description: 'Building end-to-end platforms that are optimized for high performance, utilizing React for the UI and Spring Boot for the logic.'
         },
         {
             icon: <Server size={32} />,
-            title: 'Backend Development',
-            description: 'Building secure and highly available server-side architectures using Java and Spring Boot ecosystem.'
+            title: 'Robust Backend Systems',
+            description: 'Designing secure, high-availability server architectures and microservices ready to handle enterprise scale.'
         },
         {
             icon: <Database size={32} />,
-            title: 'REST API Development',
-            description: 'Designing and implementing efficient, stateless RESTful services for seamless cross-platform integration.'
+            title: 'RESTful API Integration',
+            description: 'Creating and consuming clean, stateless REST APIs for seamless communication between frontend apps and complex databases.'
         },
         {
             icon: <Smartphone size={32} />,
-            title: 'Frontend UI Development',
-            description: 'Crafting interactive, user-friendly, and mobile-responsive interfaces using React and modern CSS.'
+            title: 'Responsive Interfaces',
+            description: 'Translating Figma designs into pixel-perfect, mobile-first frontend components that provide exceptional user experiences.'
         }
     ];
 
@@ -31,7 +31,7 @@ const Services = () => {
             <div className="container">
                 <div className="reveal">
                     <h2 className="section-title text-center">
-                        My <span className="text-gradient">Services</span>
+                        What I Can <span className="text-gradient">Build</span>
                     </h2>
                 </div>
 

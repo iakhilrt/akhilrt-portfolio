@@ -31,7 +31,7 @@ const Hero = () => {
                             View Projects
                             <ArrowRight size={18} className="btn-icon" />
                         </a>
-                        <a href="/resume.pdf" download="Akhil_RT_Resume.pdf" className="btn btn-outline">
+                        <a href="https://drive.google.com/file/d/1Wbxj4RbcfKnUF7o7RCh6_m-fzU65qd1n/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                             Resume
                             <Download size={18} className="btn-icon" />
                         </a>
