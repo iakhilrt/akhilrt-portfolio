@@ -18,7 +18,7 @@ const Projects = () => {
             tech: ['React', 'Spring Boot', 'MySQL', 'JWT'],
             metrics: { users: '+500', uptime: '99.9%' },
             github: 'https://github.com/iakhilrt/student-management-app',
-            demo: 'https://student-management-app-virid.vercel.app'
+            demo: 'https://student.akhilrt.com'
         },
         {
             title: 'Developer Portfolio',
