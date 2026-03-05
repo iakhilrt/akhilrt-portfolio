@@ -1,5 +1,7 @@
 # Akhil.dev - Personal Developer Portfolio
 
+![Akhil R T Portfolio Preview](./screenshot.png)
+
 ![Akhil R T Portfolio](https://img.shields.io/badge/Status-Active-success)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite&logoColor=FFD62E)
@@ -9,7 +11,7 @@ A modern, fast, and minimalist personal developer portfolio built to showcase sk
 
 ## 🚀 Live Demo
 
-*(Add your eventual live hosting URL here, e.g., `https://akhilrt.com`)*
+`https://akhilrt.com`
 
 ## ✨ Features
 
