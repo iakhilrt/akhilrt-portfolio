@@ -25,7 +25,7 @@ const Projects = () => {
             description: 'A lightning-fast, minimalist personal portfolio focused on performance and typography. Built with modern React and pure CSS for maximum efficiency.',
             tech: ['React', 'Vite', 'Vanilla CSS'],
             metrics: { perf: '100', access: '100' },
-            github: 'https://github.com/iakhilrt',
+            github: 'https://github.com/iakhilrt/akhilrt-portfolio.git',
             demo: 'https://akhilrt-portfolio.vercel.app'
         }
     ];
