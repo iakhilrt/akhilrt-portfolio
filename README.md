@@ -1,4 +1,4 @@
-# Akhil.dev - Personal Developer Portfolio
+# akhil.com - Personal Developer Portfolio
 
 ![Akhil R T Portfolio Preview](./screenshot.png)
 
