@@ -18,7 +18,7 @@ const Projects = () => {
             tech: ['React', 'Spring Boot', 'MySQL', 'JWT'],
             metrics: { users: '+500', uptime: '99.9%' },
             github: 'https://github.com/iakhilrt/student-management-app',
-            demo: '#'
+            demo: 'https://student-management-app-virid.vercel.app'
         },
         {
             title: 'Developer Portfolio',
@@ -26,7 +26,7 @@ const Projects = () => {
             tech: ['React', 'Vite', 'Vanilla CSS'],
             metrics: { perf: '100', access: '100' },
             github: 'https://github.com/iakhilrt',
-            demo: '#'
+            demo: 'https://akhilrt-portfolio.vercel.app'
         }
     ];
 
