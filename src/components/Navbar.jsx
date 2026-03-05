@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { Sun, Moon, Menu, X, Code2 } from 'lucide-react';
+import { Sun, Moon, Menu, X, Code2, Github, Linkedin } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -41,6 +41,14 @@ const Navbar = () => {
                             {link.name}
                         </a>
                     ))}
+                    <div className="nav-socials">
+                        <a href="https://github.com/iakhilrt" target="_blank" rel="noopener noreferrer" className="nav-social-link" aria-label="GitHub">
+                            <Github size={20} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/akhilrt" target="_blank" rel="noopener noreferrer" className="nav-social-link" aria-label="LinkedIn">
+                            <Linkedin size={20} />
+                        </a>
+                    </div>
                     <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle Theme">
                         {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
                     </button>
@@ -73,6 +81,16 @@ const Navbar = () => {
                         {link.name}
                     </a>
                 ))}
+                <div className="mobile-socials">
+                    <a href="https://github.com/iakhilrt" target="_blank" rel="noopener noreferrer" className="mobile-social-link" aria-label="GitHub">
+                        <Github size={20} />
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/akhilrt" target="_blank" rel="noopener noreferrer" className="mobile-social-link" aria-label="LinkedIn">
+                        <Linkedin size={20} />
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
             </div>
         </nav>
     );

@@ -26,7 +26,7 @@ const Projects = () => {
             tech: ['React', 'Vite', 'Vanilla CSS'],
             metrics: { perf: '100', access: '100' },
             github: 'https://github.com/iakhilrt/akhilrt-portfolio.git',
-            demo: 'https://akhilrt-portfolio.vercel.app'
+            demo: '#home'
         }
     ];
 
@@ -48,7 +48,7 @@ const Projects = () => {
                                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link" aria-label="GitHub Repository">
                                         <Github size={20} />
                                     </a>
-                                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link" aria-label="Live Demo">
+                                    <a href={project.demo} target={project.demo.startsWith('#') ? '_self' : '_blank'} rel={project.demo.startsWith('#') ? undefined : 'noopener noreferrer'} className="project-link" aria-label="Live Demo">
                                         <ExternalLink size={20} />
                                     </a>
                                 </div>
