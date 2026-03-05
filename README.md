@@ -1,4 +1,4 @@
-# akhil.com - Personal Developer Portfolio
+# AKHIL R T - Personal Developer Portfolio
 
 ![Akhil R T Portfolio Preview](./screenshot.png)
 
@@ -9,9 +9,7 @@
 
 A modern, fast, and minimalist personal developer portfolio built to showcase skills, experience, and projects. Engineered with React and Vite, the UI emphasizes a clean aesthetic, deep contrast, and smooth micro-interactions.
 
-## 🚀 Live Demo
-
-`https://akhilrt.com`
+🔗 **Live Demo:** [akhilrt.com](https://akhilrt.com)
 
 ## ✨ Features
 
