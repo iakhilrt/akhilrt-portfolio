@@ -10,7 +10,7 @@ const Projects = () => {
             tech: ['React', 'Java', 'Spring Data JPA', 'Tailwind'],
             metrics: { posts: '10k+', views: '50k/mo' },
             github: 'https://github.com/iakhilrt/blog-app',
-            demo: '#'
+            demo: 'https://inkwell.akhilrt.com'
         },
         {
             title: 'Student Management App',
