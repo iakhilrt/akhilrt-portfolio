@@ -10,34 +10,32 @@ const Contact = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        ```
-const formData = new FormData(e.target);
 
-try {
-  await fetch(
-    "https://docs.google.com/forms/d/e/1FAIpQLSdatdZhmwD2P5HmGwSl66C_1oNdisW5N0rbp9R2iAuo2V-wHg/formResponse",
-    {
-      method: "POST",
-      mode: "no-cors",
-      headers: {
-        Accept: "application/json",
-      },
-      body: formData,
-    }
-  );
+        const form = e.target;
+        const formData = new FormData(form);
 
-  setIsSubmitted(true);
-  e.target.reset();
+        try {
+            await fetch(
+                "https://docs.google.com/forms/d/e/1FAIpQLSdatdZhmwD2P5HmGwSl66C_1oNdisW5N0rbp9R2iAuo2V-wHg/formResponse",
+                {
+                    method: "POST",
+                    mode: "no-cors",
+                    body: formData,
+                }
+            );
 
-  setTimeout(() => {
-    setIsSubmitted(false);
-  }, 5000);
-} catch (error) {
-  console.error("Error submitting form", error);
-} finally {
-  setIsSubmitting(false);
-}
-```
+            setIsSubmitted(true);
+            form.reset();
+
+            setTimeout(function () {
+                setIsSubmitted(false);
+            }, 5000);
+        } catch (error) {
+            console.error("Error submitting form:", error);
+        }
+
+        setIsSubmitting(false);
+
 
     };
 
@@ -139,10 +137,9 @@ try {
                             ? "Message Sent!"
                             : "Send Message"}
 
-                    {isSubmitted ? (
-                        <Check size={18} className="btn-icon" />
-                    ) : (
-                        !isSubmitting && <Send size={18} className="btn-icon" />
+                    {isSubmitted && <Check size={18} className="btn-icon" />}
+                    {!isSubmitting && !isSubmitted && (
+                        <Send size={18} className="btn-icon" />
                     )}
                 </button>
             </form>
