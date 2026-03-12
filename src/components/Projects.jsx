@@ -7,7 +7,7 @@ const Projects = () => {
         {
             title: 'Blog App',
             description: 'A high-performance CMS backend driving a modern blogging frontend. Features complete CRUD capabilities and a streamlined RESTful architecture.',
-            tech: ['React', 'Java', 'Spring Data JPA', 'Tailwind'],
+            tech: ['React', 'Java', 'Spring Data JPA', 'Vanilla CSS'],
             metrics: { posts: '10k+', views: '50k/mo' },
             github: 'https://github.com/iakhilrt/blog-app',
             demo: 'https://inkwell.akhilrt.com'
@@ -41,7 +41,7 @@ const Projects = () => {
 
                 <div className="projects-grid reveal">
                     {projects.map((project, idx) => (
-                        <div key={idx} className="project-card glass card-hover">
+                        <div key={idx} className="bento-card project-card">
                             <div className="project-header">
                                 <FolderGit2 className="project-folder" size={32} />
                                 <div className="project-links">

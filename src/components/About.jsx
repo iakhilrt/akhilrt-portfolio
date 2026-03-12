@@ -36,7 +36,7 @@ const About = () => {
                 </div>
 
                 <div className="about-content">
-                    <div className="about-text glass reveal">
+                    <div className="bento-card about-text reveal">
                         <ul className="about-list">
                             <li><strong>Java Full Stack Developer:</strong> Experienced in building scalable web applications with Java, Spring Boot, and modern frontends.</li>
                             <li><strong>System Architecture:</strong> Passionate about diving deep into backend design and complex problem-solving.</li>
@@ -47,7 +47,7 @@ const About = () => {
 
                     <div className="about-highlights reveal">
                         {highlights.map((item, index) => (
-                            <div key={index} className="highlight-card card-hover glass">
+                            <div key={index} className="bento-card highlight-card">
                                 <div className="highlight-icon-wrapper">
                                     {item.icon}
                                 </div>

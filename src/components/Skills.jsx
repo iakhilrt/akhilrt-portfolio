@@ -37,7 +37,7 @@ const Skills = () => {
 
                 <div className="skills-grid reveal">
                     {skillCategories.map((category, idx) => (
-                        <div key={idx} className="skill-category glass card-hover">
+                        <div key={idx} className="bento-card skill-category">
                             <div className="category-header">
                                 <div className="category-icon-wrapper">
                                     {category.icon}

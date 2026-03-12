@@ -93,16 +93,6 @@
 /* Contact Form - Minimal Styling */
 .contact-form {
     padding: 2.5rem;
-    background: var(--bg-primary);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    box-shadow: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.contact-form:hover {
-    border-color: var(--text-tertiary);
-    box-shadow: var(--card-shadow);
 }
 
 .form-group {

@@ -37,21 +37,23 @@
     top: 0;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: var(--bg-tertiary);
-    border: 2px solid var(--border-color);
+    border-radius: var(--radius-full);
+    background-color: var(--bg-surface);
+    border: 2px solid var(--border-subtle);
     display: flex;
     align-items: center;
     justify-content: center;
     transform: translateX(-50%);
     z-index: 2;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
+    transition: var(--transition-smooth);
+    box-shadow: var(--shadow-bento);
 }
 
 .timeline-content:hover~.timeline-marker,
 .timeline-item:hover .timeline-marker {
-    border-color: var(--text-tertiary);
-    background-color: var(--bg-secondary);
+    border-color: var(--accent-primary);
+    background-color: var(--bg-surface-hover);
+    box-shadow: var(--shadow-glow);
 }
 
 .timeline-content:hover .marker-icon,
@@ -66,17 +68,7 @@
 
 .timeline-content {
     padding: 2.5rem;
-    border-radius: 12px;
-    background-color: var(--bg-primary);
-    border: 1px solid var(--border-color);
     margin-left: 1.5rem;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.timeline-content:hover {
-    transform: translateY(-4px);
-    border-color: var(--text-tertiary);
-    box-shadow: var(--card-shadow);
 }
 
 .experience-header {

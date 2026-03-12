@@ -10,9 +10,6 @@
 
 .skill-category {
     padding: 2.5rem 2rem;
-    border-radius: 12px;
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
     height: 100%;
 }
 

@@ -8,9 +8,6 @@ const Hero = () => {
             <div className="container hero-container">
 
                 <div className="hero-content reveal">
-                    <div className="hero-profile-image">
-                        <img src="/profile.jpg" alt="Akhil R T" />
-                    </div>
                     <div className="hero-badge">
                         <Terminal size={16} />
                         <span>Available for Opportunities</span>
@@ -43,6 +40,15 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
+
+                <div className="hero-visual reveal reveal-delay-1">
+                    <div className="bento-card profile-bento">
+                        <div className="profile-image-container">
+                            <img src="/profile.jpg" alt="Akhil R T" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );

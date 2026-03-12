@@ -8,12 +8,15 @@
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6rem;
-    align-items: center;
+    gap: 2rem;
+    align-items: stretch;
 }
 
 .about-text {
-    padding: 0;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-list {
@@ -53,10 +56,10 @@
 }
 
 .highlight-card {
-    padding: 2rem;
-    border-radius: 12px;
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .highlight-icon-wrapper {

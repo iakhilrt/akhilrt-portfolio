@@ -31,7 +31,7 @@ const Experience = () => {
                             <div className="timeline-marker">
                                 <Briefcase size={20} className="marker-icon" />
                             </div>
-                            <div className="timeline-content glass card-hover">
+                            <div className="timeline-content bento-card">
                                 <div className="experience-header">
                                     <h3 className="experience-role">{exp.role}</h3>
                                     <span className="experience-duration">

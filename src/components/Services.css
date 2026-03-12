@@ -11,12 +11,8 @@
 
 .service-card {
     padding: 3rem;
-    border-radius: 12px;
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
-    transition: all 0.2s ease;
 }
 
 .service-icon {

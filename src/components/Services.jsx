@@ -37,7 +37,7 @@ const Services = () => {
 
                 <div className="services-grid reveal">
                     {services.map((service, idx) => (
-                        <div key={idx} className="service-card glass card-hover">
+                        <div key={idx} className="bento-card service-card">
                             <div className="service-icon">
                                 {service.icon}
                             </div>
