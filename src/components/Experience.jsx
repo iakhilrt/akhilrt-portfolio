@@ -7,7 +7,7 @@ const Experience = () => {
         {
             role: 'Java Software Engineer Intern',
             company: 'Srishti Innovative',
-            duration: 'Oct 2025 - Present',
+            duration: 'Oct 2025 - Mar 2026',
             description: [
                 'Full-stack development using Java, Spring Boot, React.js',
                 'API development, database integration, and UI implementation',

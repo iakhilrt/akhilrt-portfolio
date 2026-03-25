@@ -7,22 +7,22 @@ const Skills = () => {
         {
             title: 'Frontend',
             icon: <Layout className="skill-icon" />,
-            skills: ['HTML', 'CSS', 'JavaScript', 'React']
+            skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Tailwind CSS', 'React Query']
         },
         {
             title: 'Backend',
             icon: <Server className="skill-icon" />,
-            skills: ['Java', 'Spring Boot', 'REST API']
+            skills: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'REST API', 'JWT', 'Hibernate']
         },
         {
             title: 'Database',
             icon: <Database className="skill-icon" />,
-            skills: ['MySQL']
+            skills: ['MySQL', 'TiDB Cloud']
         },
         {
-            title: 'Tools',
+            title: 'Tools & Services',
             icon: <Wrench className="skill-icon" />,
-            skills: ['Git', 'GitHub', 'Docker', 'Vercel', 'Render']
+            skills: ['Git', 'GitHub', 'Docker', 'Postman', 'AWS', 'Vercel', 'Render', 'Cloudinary', 'Brevo']
         }
     ];
 

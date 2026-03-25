@@ -5,10 +5,16 @@ import './Projects.css';
 const Projects = () => {
     const projects = [
         {
-            title: 'Blog App',
-            description: 'A high-performance CMS backend driving a modern blogging frontend. Features complete CRUD capabilities and a streamlined RESTful architecture.',
-            tech: ['React', 'Java', 'Spring Data JPA', 'Vanilla CSS'],
-            metrics: { posts: '10k+', views: '50k/mo' },
+            title: 'Vault',
+            description: 'A personal finance SaaS for tracking budgets and expenses. Built with Spring Boot, React + Vite, and Tailwind CSS v4. Features JWT authentication, secure REST APIs, React Query for state management, and a mobile-first responsive UI.',
+            tech: ['Spring Boot', 'React', 'Tailwind CSS', 'JWT', 'MySQL'],
+            github: 'https://github.com/iakhilrt/expense-tracker.git',
+            demo: 'https://vault.akhilrt.com'
+        },
+        {
+            title: 'Inkwell',
+            description: 'Full-stack blogging platform with JWT auth, OTP email verification, Cloudinary image management, and a premium dark UI. Backend on Spring Boot, frontend on React + Vite.',
+            tech: ['React', 'Spring Boot', 'MySQL', 'Vanilla CSS'],
             github: 'https://github.com/iakhilrt/blog-app',
             demo: 'https://inkwell.akhilrt.com'
         },
@@ -16,17 +22,8 @@ const Projects = () => {
             title: 'Student Management App',
             description: 'A comprehensive full-stack records management portal. Engineered with secure JWT authentication, real-time analytics, and a responsive data dashboard.',
             tech: ['React', 'Spring Boot', 'MySQL', 'JWT'],
-            metrics: { users: '+500', uptime: '99.9%' },
             github: 'https://github.com/iakhilrt/student-management-app',
             demo: 'https://student.akhilrt.com'
-        },
-        {
-            title: 'Developer Portfolio',
-            description: 'A lightning-fast, minimalist personal portfolio focused on performance and typography. Built with modern React and pure CSS for maximum efficiency.',
-            tech: ['React', 'Vite', 'Vanilla CSS'],
-            metrics: { perf: '100', access: '100' },
-            github: 'https://github.com/iakhilrt/akhilrt-portfolio.git',
-            demo: '#home'
         }
     ];
 
